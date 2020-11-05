@@ -22,11 +22,15 @@ $ ./install_libs.sh
 $ docker-compose run arduino-cli compile -v -b esp32:esp32:m5stack-core-esp32 {プロジェクトのディレクトリ}
 ```
 
+- コンテナにホストのカレントディレクトリを引き渡しているので、このリポジトリのルートにいる場合はprojects/{プロジェクトのディレクトリ}という形になる
+
 ### スケッチのアップロード
 
 ```
 $ docker-compose run arduino-cli upload -p /dev/ttyUSB0 -b esp32:esp32:m5stack-core-esp32 {プロジェクトのディレクトリ}
 ```
+
+- コンテナにホストのカレントディレクトリを引き渡しているので、このリポジトリのルートにいる場合はprojects/{プロジェクトのディレクトリ}という形になる
 
 ### スケッチの新規作成
 
