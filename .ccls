@@ -1,0 +1,14 @@
+clang
+
+%c -std=c11
+%cpp -std=c++11
+
+# includes
+## ESP32
+-I./assets/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries
+
+## M5Stack
+-I./assets/Arduino/libraries/M5Stack/src
+
+## HX711
+-I./assets/Arduino/libraries/HX711
