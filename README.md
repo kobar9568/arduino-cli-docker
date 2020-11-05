@@ -57,7 +57,7 @@ $ rm -rf HX711/
 
 ### assets/について
 
-- `assets/`ディレクトリにarduino-cliの環境設定やライブラリが保存される
+- `assets/`ディレクトリにライブラリが保存される
 - このディレクトリはpermissionがrootになるので注意
 - C++のLanguage Serverのinclude pathにここの中から適切なpathを渡して解析させる予定
 
