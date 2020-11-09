@@ -1,5 +1,5 @@
 # alpineベースにしたかったけど、xtensa-esp32-elf-g++が実行不可能な現象があるのでUbuntuベースにした
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 MAINTAINER kobar9568
 
