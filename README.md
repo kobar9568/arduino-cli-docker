@@ -69,6 +69,6 @@ $ rm -rf HX711/
 
 - cocの拡張が用意されていて、開発も盛んな`clangd`(coc-clangd)を利用したかったが、インクルードパスの追加がうまく行かなかった
 - ひとまず、単体でインストールされた`ccls`をLSとして利用し、`.ccls`を用意することで補完が使えそうな感じだった
-- システムに`ccls`がインストールされている状態で、`coc-settings.json`を[ドキュメント](https://github.com/neoclide/coc.nvim/wiki/Language-servers#ccobjective-c)に倣って構築した環境であれば、projects/{プロジェクト名}/{プロジェクト名}**.cpp**で補完が一部効く
+- システムに`ccls`がインストールされている環境であれば、projects/{プロジェクト名}/{プロジェクト名}**.cpp**で補完が一部効く
   - 取り敢えず、M5Stack.hの補完とHX711.hの#includeの補完は確認した
   - arduino-cliのコンパイル時の出力を参考にするか、ライブラリを漁って`.ccls`に追記すれば使えそうな感じ
