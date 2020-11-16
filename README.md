@@ -4,6 +4,11 @@
 
 CLIによるM5Stackの開発にあたり、スケッチのコンパイルとアップロードを行う環境
 
+## Notice
+
+Language Serverがインクルードパスの解決をうまく出来ていないようだったので、ひとまずPlatformIOベースに移行。  
+https://github.com/kobar9568/pio-docker
+
 ## Installation
 
 ```
